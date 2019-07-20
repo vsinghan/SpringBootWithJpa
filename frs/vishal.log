@@ -1,0 +1,67 @@
+2019-07-20 17:41:14.945  INFO 11788 --- [restartedMain] com.cg.frs.FrsApplication                : Starting FrsApplication on DIN13003059 with PID 11788 (D:\Users\trainee\Desktop\Flight\frs\target\classes started by trainee in D:\Users\trainee\Desktop\Flight\frs)
+2019-07-20 17:41:14.947  INFO 11788 --- [restartedMain] com.cg.frs.FrsApplication                : No active profile set, falling back to default profiles: default
+2019-07-20 17:41:14.982  INFO 11788 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-20 17:41:14.982  INFO 11788 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-20 17:41:15.546  INFO 11788 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-20 17:41:15.566  INFO 11788 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-07-20 17:41:15.843  INFO 11788 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$61990f8a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-20 17:41:16.139  INFO 11788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8067 (http)
+2019-07-20 17:41:16.159  INFO 11788 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-20 17:41:16.160  INFO 11788 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-20 17:41:16.286  INFO 11788 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-20 17:41:16.286  INFO 11788 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1304 ms
+2019-07-20 17:41:16.416  INFO 11788 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-07-20 17:41:16.500  INFO 11788 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-07-20 17:41:16.504  INFO 11788 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-07-20 17:41:16.546  INFO 11788 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-20 17:41:16.592  INFO 11788 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-20 17:41:16.593  INFO 11788 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-07-20 17:41:16.793  INFO 11788 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-20 17:41:16.904  INFO 11788 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2019-07-20 17:41:17.005  INFO 11788 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [byte[]] overrides previous : org.hibernate.type.BinaryType@13ab8564
+2019-07-20 17:41:17.006  INFO 11788 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[B] overrides previous : org.hibernate.type.BinaryType@13ab8564
+2019-07-20 17:41:17.006  INFO 11788 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [Byte[]] overrides previous : org.hibernate.type.WrapperBinaryType@522caeff
+2019-07-20 17:41:17.006  INFO 11788 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [[Ljava.lang.Byte;] overrides previous : org.hibernate.type.WrapperBinaryType@522caeff
+2019-07-20 17:41:17.492  INFO 11788 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-20 17:41:17.560  WARN 11788 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-20 17:41:17.851  INFO 11788 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-20 17:41:17.904  INFO 11788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8067 (http) with context path ''
+2019-07-20 17:41:17.907  INFO 11788 --- [restartedMain] com.cg.frs.FrsApplication                : Started FrsApplication in 3.261 seconds (JVM running for 3.911)
+2019-07-20 17:45:11.706  INFO 11788 --- [http-nio-8067-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-20 17:45:11.706  INFO 11788 --- [http-nio-8067-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-20 17:45:11.715  INFO 11788 --- [http-nio-8067-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-07-20 17:45:11.813  INFO 11788 --- [http-nio-8067-exec-2] com.cg.frs.controller.BookingController  : An INFO Message
+2019-07-20 17:45:11.813  WARN 11788 --- [http-nio-8067-exec-2] com.cg.frs.controller.BookingController  : A WARN Message
+2019-07-20 17:45:11.813 ERROR 11788 --- [http-nio-8067-exec-2] com.cg.frs.controller.BookingController  : An ERROR Message
+2019-07-20 17:46:29.680  INFO 11788 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-20 17:46:29.689  INFO 11788 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-07-20 17:46:29.702  INFO 11788 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-07-20 17:46:29.936  INFO 11788 --- [restartedMain] com.cg.frs.FrsApplication                : Starting FrsApplication on DIN13003059 with PID 11788 (D:\Users\trainee\Desktop\Flight\frs\target\classes started by trainee in D:\Users\trainee\Desktop\Flight\frs)
+2019-07-20 17:46:29.936  INFO 11788 --- [restartedMain] com.cg.frs.FrsApplication                : No active profile set, falling back to default profiles: default
+2019-07-20 17:46:30.131  INFO 11788 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-20 17:46:30.135  INFO 11788 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-07-20 17:46:30.178  INFO 11788 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$61990f8a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-20 17:46:30.298  INFO 11788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8067 (http)
+2019-07-20 17:46:30.299  INFO 11788 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-20 17:46:30.299  INFO 11788 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-20 17:46:30.328  INFO 11788 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-20 17:46:30.328 DEBUG 11788 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-20 17:46:30.328  INFO 11788 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 390 ms
+2019-07-20 17:46:30.365  INFO 11788 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2019-07-20 17:46:30.389  INFO 11788 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-07-20 17:46:30.391  INFO 11788 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2019-07-20 17:47:34.880  INFO 11788 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-20 17:47:34.903  WARN 11788 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-20 17:47:34.916 DEBUG 11788 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2019-07-20 17:47:34.933 DEBUG 11788 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-20 17:47:34.939 DEBUG 11788 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-20 17:47:35.009  INFO 11788 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-20 17:47:35.031  INFO 11788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8067 (http) with context path ''
+2019-07-20 17:47:35.032  INFO 11788 --- [restartedMain] com.cg.frs.FrsApplication                : Started FrsApplication in 65.125 seconds (JVM running for 381.0)
+2019-07-20 17:47:35.035  INFO 11788 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-20 17:47:35.677  INFO 11788 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-07-20 17:47:35.680  INFO 11788 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-20 17:47:35.681  INFO 11788 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2019-07-20 17:47:35.689  INFO 11788 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
